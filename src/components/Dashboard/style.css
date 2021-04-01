@@ -1,0 +1,51 @@
+.welcome{
+    color: white;
+    background-color: #05203D;
+    padding: 5px;
+
+}
+
+.dashboard__chats{
+    width: 90%;
+    cursor: pointer;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #d9d9ece3;
+    margin: 5px auto 0 auto;
+}
+
+.dashboard_created_by{
+    position: absolute;
+   right: 5rem;
+   margin-top: 55px;
+}
+
+.dashboard__time{
+    position: absolute;
+   right: 5rem;
+   margin-top: 65px;
+}
+
+.input__dashboard{
+    width: 80%;
+    height: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 5px;
+    left: 70px;
+}
+
+.input__button{
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 5px;
+    right: 50px;
+    width: 180px;
+    background-color: #05203D;
+    color: white;
+
+}

@@ -1,0 +1,60 @@
+.login{
+    display: flex;
+    /* background-image: url('./Hinterrhein.png'); */
+}
+
+.login__background{
+    width: 60%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 100vh;
+
+}
+.login__form{
+    
+    height: 500px;
+    margin: auto;
+    border-radius: 5px;
+    
+}
+.button{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.message{
+    color: red;
+    position: absolute;
+    font-size: 18px;
+    bottom: 60px;
+    margin-left: 20px;
+    text-align: center;
+}
+.Signin{
+    width: 314px;
+    height: 32px;
+    padding: 5px;
+    background-color: #05203D;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login__heading{
+    font-size: 40px;
+    color: #05203D;
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form__div{
+    margin: 10px;
+}
+
+.form__input{
+    width: 300px;
+    height: 20px;
+    padding: 5px;
+   border-color: #05203D;
+   border-radius: 5px;
+}
