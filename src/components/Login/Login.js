@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import "./style.css"
-import {useHistory, Route} from 'react-router-dom';
+import {useHistory} from 'react-router-dom';
 import Image from './Hinterrhein.png';
-import Dashboard from '../Dashboard/Dashboard';
+
 const passkey = [{
     username: "abc@gmail.com",
     password: "1234"

@@ -25,6 +25,7 @@ function Discussion({location}) {
         setReplies(discussionObj)
         chats.replies=replies;
        
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
     const handleButton=()=>{
         let discussion = localStorage.getItem(`replies${index}`);
